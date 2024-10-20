@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an appointment</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/Group 447.png" type="image/x-icon">
+    <!-- font css -->
+    <link rel="stylesheet" href="assets/css/font.css">
+    <!-- icon css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- header start -->
+    <nav class="navbar navbar-expand-lg bg-white" style="padding: 12px 0;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Group 234.png" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0" style="font-weight: 600; font-size: 15px;">
+                    <li class="nav-item">
+                        <a class="nav-link mx-3 p-0 active text-primary" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3 p-0" href="team.html">DOCTOR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3 p-0" href="appoinment.html">APPOINTMENT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3 p-0" href="product.html">PHARMACY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3 p-0" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex">
+                <a href="#"
+                    class="d-flex text-white fs-5 bg-primary rounded-circle justify-content-center align-items-center"
+                    style="width: 35px; height: 35px;"><i class="fa-solid fa-gear"></i></a>
+                <a href="#"
+                    class="d-flex text-white fs-5 bg-primary ms-3 rounded-circle justify-content-center align-items-center"
+                    style="width: 35px; height: 35px;"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" class="ms-3">
+                    <img src="assets/img/Ellipse 3.png" alt="">
+                </a>
+                <a href="#offcanvasExample" data-bs-toggle="offcanvas"
+                    class="d-flex ms-3 text-white d-lg-none fs-5 bg-primary rounded-circle justify-content-center align-items-center"
+                    style="width: 35px; height: 35px;"><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <a href="#"> <img src="assets/img/Group 234.png" alt=""></a>
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0" style="font-weight: 600; font-size: 15px;">
+                <li class="nav-item">
+                    <a class="nav-link mx-3 mb-3 p-0 active text-primary" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3 mb-3 p-0" href="#">DOCTOR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3 mb-3 p-0" href="#">APPOINTMENT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3 mb-3 p-0" href="#">PHARMACY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3 mb-3 p-0" href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- header end -->
+
+    <!-- banner start -->
+    <section class="banner"
+        style="background-image: url(assets/img/unsplash_YvIihkoQSjo.png); background-size: cover; background-position: center; padding: 300px 0;">
+        <div class="container">
+            <div class="row text-white text-center">
+                <div>
+                    <h1>Book an appointment</h1>
+                    <div class="col-12 col-md-8 col-lg-6 d-block mx-auto my-4">
+                        <p class="m-0">Great doctor if you need your family member to get effective immediate
+                            assistance,
+                            emergency treatment or a simple consultation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- form start -->
+    <section class="a-form">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center my-5">
+                    <a class="border border-black border-2" style="padding: 8px 60px; font-weight: 600;" href="#">Online
+                        Appointment</a>
+                    <a class="text-primary" style="padding: 8px 30px; font-weight: 600; background-color: #396df02b;"
+                        href="#">Clinic Appointment</a>
+                </div>
+                <form class="d-flex justify-content-center">
+                    <div class="form">
+                        <label class="text-start mb-2">Patient Name*</label> <br>
+                        <input type="text" class="mb-4" placeholder="Patient Name"><br>
+                        <div class="d-flex mb-4">
+                            <div><label class="text-start mb-2">Department*</label> <br>
+                                <input type="text" style="width: 280px;" placeholder="Department">
+                            </div>
+                            <div><label class="text-start mb-2 ms-3">Doctor*</label> <br>
+                                <input type="text" style="width: 280px;" class="ms-3" placeholder="Doctor"><br>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div><label class="text-start mb-2">Your Email*</label> <br>
+                                <input type="text" style="width: 280px;" placeholder="Your Email">
+                            </div>
+                            <div><label class="text-start mb-2 ms-3">Your Phone*</label> <br>
+                                <input type="text" style="width: 280px;" class="ms-3" placeholder="Your Phone"><br>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div><label class="text-start mb-2">Appointment Date*</label> <br>
+                                <input type="text" style="width: 280px;" placeholder="Appointment Date">
+                            </div>
+                            <div><label class="text-start mb-2 ms-3">Appointment Time*</label> <br>
+                                <input type="text" style="width: 280px;" class="ms-3"
+                                    placeholder="Appointment Time"><br>
+                            </div>
+                        </div>
+
+                        <label class="text-start mb-2">Comments</label> <br>
+                        <textarea name="a" id="" style="outline: none; width: 575px;" rows="6"
+                            placeholder="Your Message" class="p-2 px-3 mb-4"></textarea>
+                        <button class="d-block mx-auto border-primary rounded-2 w-100"
+                            style="background-color: transparent; height: 50px;">
+                            <a href="#" class="text-primary" style="font-size: 17px; font-weight: 600;">Book an
+                                Appointment</a>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- form end -->
+
+    <!-- time start -->
+    <section>
+        <div class="container-fluid">
+            <div class="row" style="padding: 60px 0;">
+                <h1 class="text-center" style="font-size: 25px;">Doctors Time Table</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div style="overflow: auto;">
+                    <table style="width: 1244px;" class="table table-borderless">
+                        <thead>
+                            <tr>
+                                <th scope="col">Time Table</th>
+                                <th scope="col">09:00 AM</th>
+                                <th scope="col">11:00 AM</th>
+                                <th scope="col">02:00 PM</th>
+                                <th scope="col">04:00 PM </th>
+                                <th scope="col">06:00 PM</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Mon</th>
+                                <td>
+                                    <div class="d-flex p-0">
+                                        <div class="col-4" style="margin-right: 14px;"><img
+                                                src="assets/img/4cccfe37fff6668e44727ffdbb77b59d 1.png" class="img-fluid"
+                                                width="62" height="78" alt=""></div>
+                                        <div class="col-5">
+                                            <h4 style="font-size: 20px;">Bella <br> Castillo</h4>
+                                            <p class="text-secondary mt-2" style="font-size: 17px;">Radiologist</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-primary p-1 px-2 rounded-3" style=" font-weight: 600; background-color: #396bf32c;">09:00 - 10:00 AM</span>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <div class="d-flex p-0">
+                                        <div class="col-4" style="margin-right: 14px;"><img
+                                                src="assets/img/1000007032_x4_fast 1.png" class="img-fluid mb-3"
+                                                width="62" height="78" alt=""></div>
+                                        <div class="col-5">
+                                            <h4 style="font-size: 20px;">Calvin <br> Carlo</h4>
+                                            <p class="text-secondary mt-2" style="font-size: 17px;">Eye Care</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-primary p-1 px-2 rounded-3" style=" font-weight: 600; background-color: #396bf32c;">02:00 - 4:00 PM</span>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <div class="d-flex p-0">
+                                        <div class="col-4" style="margin-right: 10px;"><img
+                                                src="assets/img/af8c03e021aa5044f0c4709fd0ce9602 1.png" class="img-fluid"
+                                                width="64" height="78" alt=""></div>
+                                        <div class="col-5">
+                                            <h4 style="font-size: 20px;">Leo <br> Davis </h4>
+                                            <p class="text-secondary mt-2" style="font-size: 17px;">Cardiologists</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-primary p-1 px-2 rounded-3" style=" font-weight: 600; background-color: #396bf32c;">07:00 - 08:00 PM</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Tues</th>
+                                <td></td>
+                                <td>
+                                    <div class="d-flex p-0">
+                                        <div class="col-4" style="margin-right: 14px;"><img
+                                                src="assets/img/1000007020_x4_fast 1.png" class=""
+                                                width="62" height="78" alt=""></div>
+                                        <div class="col-5">
+                                            <h4 style="font-size: 20px;">Alice <br> Williams  </h4>
+                                            <p class="text-secondary mt-2" style="font-size: 17px;">Dentist</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-primary p-1 px-2 rounded-3" style=" font-weight: 600; background-color: #396bf32c;">11:00 - 12:00 AM</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Wed</th>
+                                <td colspan="2"></td>
+                                <td></td>
+                                <td>
+                                    <div class="d-flex p-0">
+                                        <div class="col-4" style="margin-right: 14px;"><img
+                                                src="assets/img/28a6f53b54378bb1326f9f4e0b20908d 1.png" class=""
+                                                width="62" height="78" alt=""></div>
+                                        <div class="col-5">
+                                            <h4 style="font-size: 20px;">Sophia <br> Taylor</h4>
+                                            <p class="text-secondary mt-2" style="font-size: 17px;">Neurologists</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-primary p-1 px-2 rounded-3" style=" font-weight: 600; background-color: #396bf32c;">04:00 - 06:00 PM</span>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Thurs</th>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <div class="d-flex p-0">
+                                        <div class="col-4" style="margin-right: 14px;"><img
+                                                src="assets/img/1000007028_x4_fast 1.png" class=""
+                                                width="62" height="78" alt=""></div>
+                                        <div class="col-5">
+                                            <h4 style="font-size: 20px;">Tony Kovar</h4>
+                                            <p class="text-secondary mt-2" style="font-size: 17px;">Orthopedic</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-primary p-1 px-2 rounded-3" style=" font-weight: 600; background-color: #396bf32c;">03:00 - 04:00 PM</span>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <div class="d-flex p-0">
+                                        <div class="col-4" style="margin-right: 14px;"><img
+                                                src="assets/img/897b3f34dd3e391054d7bdbaafabdbdc 1.png" class=""
+                                                width="62" height="78" alt=""></div>
+                                        <div class="col-5">
+                                            <h4 style="font-size: 20px;">Jessica Williams</h4>
+                                            <p class="text-secondary mt-2" style="font-size: 17px;">Dentist</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-primary p-1 px-2 rounded-3" style=" font-weight: 600; background-color: #396bf32c;">06:00 - 08:00 PM</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Fri</th>
+                                <td>
+                                    <div class="d-flex p-0">
+                                        <div class="col-4" style="margin-right: 14px;"><img
+                                                src="assets/img/1000007022_x4_fast (1) 1.png" class=""
+                                                width="62" height="78" alt=""></div>
+                                        <div class="col-5">
+                                            <h4 style="font-size: 20px;">Alia Reddy</h4>
+                                            <p class="text-secondary mt-2" style="font-size: 17px;">Psychot-herapist</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-primary p-1 px-2 rounded-3" style=" font-weight: 600; background-color: #396bf32c;">09:00 - 12:00 AM</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <div class="d-flex p-0">
+                                        <div class="col-4" style="margin-right: 14px;"><img
+                                                src="assets/img/1000007024_x4_fast 1.png" class=""
+                                                width="62" height="78" alt=""></div>
+                                        <div class="col-5">
+                                            <h4 style="font-size: 20px;">Hazel Kelly</h4>
+                                            <p class="text-secondary mt-2" style="font-size: 17px;">Dermato - logist</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-primary p-1 px-2 rounded-3" style=" font-weight: 600; background-color: #396bf32c;">05:00 - 06:00 PM</span>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sat</th>
+                                <td></td>
+                                <td>
+                                    <div class="d-flex p-0">
+                                        <div class="col-4" style="margin-right: 14px;"><img
+                                                src="assets/img/1000007030_x4_fast 1.png" class=""
+                                                width="62" height="78" alt=""></div>
+                                        <div class="col-5">
+                                            <h4 style="font-size: 20px;">Ava Johnson </h4>
+                                            <p class="text-secondary mt-2" style="font-size: 17px;">Dermatologist</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-primary p-1 px-2 rounded-3" style=" font-weight: 600; background-color: #396bf32c;">12:00 - 02:00 PM</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <div class="d-flex p-0">
+                                        <div class="col-4" style="margin-right: 14px;"><img
+                                                src="assets/img/1000007034_x4_fast 1.png" class=""
+                                                width="62" height="78" alt=""></div>
+                                        <div class="col-5">
+                                            <h4 style="font-size: 20px;">James Thomas </h4>
+                                            <p class="text-secondary mt-2" style="font-size: 17px;">Dentist</p>
+                                        </div>
+                                    </div>
+                                    <span class="text-primary p-1 px-2 rounded-3" style=" font-weight: 600; background-color: #396bf32c;">07:00 - 08:00 PM</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- time end -->
+
+    <!-- footer start -->
+    <footer class="mt-5 text-white" style="background-color: #202942;">
+        <div class="container">
+            <div class="row justify-content-between" style="padding: 60px 0;">
+                <div class="col-12 pb-3 col-md-6 col-lg-3">
+                    <img src="assets/img/Group 233.png" class="img-fluid" alt="">
+                    <p style="color: #adb5bd; font-size: 15px; margin-top: 35px;">Great doctor if you need your family
+                        member to get effective immediate assistance, emergency
+                        treatment or a simple consultation.</p>
+                </div>
+                <div class="col-6 pb-3 col-lg-2">
+                    <h4 style="font-size: 22px;" class="mb-4">Company</h4>
+                    <span class="d-block ms-2" style="color: #adb5bd; line-height: 2.2;">About Us</span>
+                    <span class="d-block ms-2" style="color: #adb5bd; line-height: 2.2;">Services</span>
+                    <span class="d-block ms-2" style="color: #adb5bd; line-height: 2.2;">Team</span>
+                    <span class="d-block ms-2" style="color: #adb5bd; line-height: 2.2;">Project</span>
+                    <span class="d-block ms-2" style="color: #adb5bd; line-height: 2.2;">Blog</span>
+                    <span class="d-block ms-2" style="color: #adb5bd; line-height: 2.2;">Log In</span>
+                </div>
+                <div class="col-6 pb-3 col-lg-2">
+                    <h4 style="font-size: 22px;" class="mb-4">Departments</h4>
+                    <span class="d-block ms-2" style="color: #adb5bd; line-height: 2.2;">Eye Care</span>
+                    <span class="d-block ms-2" style="color: #adb5bd; line-height: 2.2;">Psychotherapy</span>
+                    <span class="d-block ms-2" style="color: #adb5bd; line-height: 2.2;">Dental Care</span>
+                    <span class="d-block ms-2" style="color: #adb5bd; line-height: 2.2;">Orthopedic</span>
+                    <span class="d-block ms-2" style="color: #adb5bd; line-height: 2.2;">Cardiology</span>
+                    <span class="d-block ms-2" style="color: #adb5bd; line-height: 2.2;">Gynecology</span>
+                    <span class="d-block ms-2" style="color: #adb5bd; line-height: 2.2;">Neurology</span>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" style="color: #adb5bd;">
+                    <h4 style="font-size: 22px;" class="mb-4 text-white">Contact us</h4>
+                    <div class="d-flex align-items-center mb-3"><i class="me-3 fa-regular fa-envelope"></i>
+                        <span class="d-block">lifecare@gmail.com</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-3"><i class="me-3 fa-solid fa-phone"></i>
+                        <span class="d-block">+152 534-468-854</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-3"><i class="me-3 fa-solid fa-phone"></i>
+                        <span class="d-block">+152 534-468-855</span>
+                    </div>
+                    <div class="d-flex align-items-center" style="padding-bottom: 35px;"><i
+                            class="me-3 fa-solid fa-location-dot"></i>
+                        <span class="d-block">View on Google map</span>
+                    </div>
+                    <img src="assets/img/facebook 1.png" class="img-fluid me-3" alt="">
+                    <img src="assets/img/instagram 1.png" class="img-fluid me-3" alt="">
+                    <img src="assets/img/twitter 1.png" class="img-fluid me-3" alt="">
+                    <img src="assets/img/linkedin 1.png" alt="">
+                </div>
+            </div>
+            <div class="row py-4" style="border-top: 1px solid rgba(128, 128, 128, 0.783);">
+                <ul class="d-flex justify-content-end" style="color: #adb5bd;">
+                    <li class="d-inline">Terms</li>
+                    <li class="d-inline ms-4">Privacy</li>
+                    <li class="d-inline ms-4">About</li>
+                    <li class="d-inline ms-4">Contact</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
